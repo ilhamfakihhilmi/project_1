@@ -60,44 +60,44 @@ transition: all 0.3s ease;
 .menu-list li a:hover{
 color: #007bff;
 }
-.ban_cov {
-  background-color: rgb(124, 124, 124);
-  z-index: 6;
-}
 
-.banner1{
+.boxban{
+  background: linear-gradient(to right top, #000000da, #ffffff00);
+  height: 100vh;
+  background-size: cover;
+  position: center;
+}
+.banner-nav{
   background: url("./images/sayur1.png") no-repeat;
   background-color: #147D5D;
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
   background-position: center;
 }
+.banner-nav h1{
+  font-family: poppins;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 15rem;
+}
+.banner-nav p{
+  font-family: poppins;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+.banner-nav h2{
+  font-family: poppins;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 5px;
+  font-weight: 500;
+}
 
-.banner1 p{
-  font-family: poppins;
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  padding-top: 0;
-}
-.banner1 h2{
-  font-family: poppins;
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  padding-top: 350px;
-}
-.about{
-padding: 30px 0;
-}
-.about .title{
-font-size: 38px;
-font-weight: 700;
-}
-.about p{
-padding-top: 20px;
-text-align: justify;
-}
 .icon{
 color: #fff;
 font-size: 20px;
@@ -176,24 +176,6 @@ body.disabled{
   box-sizing: border-box;
 }
 
-h1 {
-  color: #426696;
-  font-weight: 600;
-  font-size: 3rem;
-  opacity: 0.8;
-}
-h2,
-p {
-  color: #658ec6;
-  font-weight: 500;
-  opacity: 0.8;
-}
-
-h3 {
-  color: #426696;
-  font-weight: 600;
-  opacity: 0.8;
-}
 
 main {
   font-family: "Poppins", sans-serif;
@@ -235,11 +217,11 @@ main {
 }
 
 .circle1 {
-  top: 9%;
+  top: 100%;
   right: 4%;
 }
 .circle2 {
-  bottom: 9%;
+  top: 120%;
   left: 4%;
 }
 .dashboard {
